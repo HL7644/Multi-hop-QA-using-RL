@@ -1,4 +1,4 @@
-<h1> Trying to use Reinforcement Learning for multi-hop QA </h1>
+<h1> Trying to use Reinforcement Learning for Multi-hop QA </h1>
 
 **1. Motivation**
 
