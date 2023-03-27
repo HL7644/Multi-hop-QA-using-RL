@@ -2,7 +2,7 @@
 
 **1. Motivation**
 
-To be used after retrieval and before final answer generation in this concept.
+To be used after retrieval and before final answer generation
 
 Given the input sentence and passages, estimate the optimal trajectory to reach an answer.
 
