@@ -1,6 +1,6 @@
 <Motivation>
 
-Trying to use Reinforcement Learning for multi-hop QA
+**Trying to use Reinforcement Learning for multi-hop QA**
 
 To be used after retrieval and before final answer generation in this concept.
 
