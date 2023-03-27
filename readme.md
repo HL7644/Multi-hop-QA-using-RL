@@ -1,4 +1,4 @@
-<Motivation>
+**Motivation**
 
 **Trying to use Reinforcement Learning for multi-hop QA**
 
@@ -15,7 +15,7 @@ If this task is complete: eventually Natual Language QA using RL will have a fol
 3) Feed input sent + selected passages in sequential order to LLM to generate final response
 
 
-<MDP>
+**MDP**
 
 State: input sentence, unselected passages, selected passages
 
@@ -28,7 +28,7 @@ Next State: “action” passage removed from unselected passages, added to sele
 Termination: When all correct passages are selected, or all passages are selected, or horizon has ben reached.
 
 
-<Model Design Ideas>
+**Model Design Ideas**
 
 Should utilize existing pre-trained LM structures. ⇒ not limited to decoder-based architectures. BERT-like Encoder architectures might also work.
 
@@ -46,7 +46,7 @@ Need 2 separate embedders ⇒ state embedder & action embedder.
 
 Critic: Predicts state-value or action-value given the input sent., selected passages and unselected passages.
 
-<Reward System>
+**Reward System**
 
 Remove the explicit termination step ⇒ traj .terminated only when all correct passage are found or horizon has been reached
 1. with fixed reward +1, -0.2 + accuracy-proportional termination reward
